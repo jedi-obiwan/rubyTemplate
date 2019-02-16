@@ -13,10 +13,26 @@
  *= require_tree .
  *= require_self
  */
-nav ul li{ 	
-    display: inline;
-    margin-right: 2em;
-} 
-nav ul li:hover{ 
-    border-bottom: groove 1px;	 
+nav{
+　text-align: center;
+}
+nav ul{
+　margin: 0 ;
+　padding: 0 ;
+}
+nav ul li{
+  display: inline;
+　list-style: none;
+　width: 18%;
+　min-width: 90px;
+}
+nav ul li a{
+　text-decoration: none;
+　color: #333;
+}
+nav ul li.current a{
+　color: #E7DA66;
+}
+nav ul li a:hover{
+　color: #F33135;
 }
